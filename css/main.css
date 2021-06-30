@@ -4,8 +4,53 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  background-image: linear-gradient(to bottom, #ff9500, #ff5e3a);
+  font-family: Overpass, sans-serif;
+  line-height: 1.5;
+  color: #fff;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+h1 {
+  margin: 1.5rem;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  border: .2rem solid #fff;
+  color: #fff;
+  text-decoration: none;
+  padding: 1rem;
+}
+
+svg {
+  width: 8rem;
+  height: 8rem;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1.5rem;
+}
+
+.icon {
+  fill: currentColor;
+}
+
+.icon #icon {
+  fill: #ff9500;
 }
