@@ -106,3 +106,11 @@ li {
   }
 
 }
+
+@media only screen and (min-width: 90em) {
+
+  h2 {
+    margin: 6rem;
+  }
+
+}
