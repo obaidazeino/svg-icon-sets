@@ -8,6 +8,7 @@ html {
   font-family: Overpass, sans-serif;
   line-height: 1.5;
   color: #fff;
+  font-weight: normal;
 }
 
 *, *::before, *::after {
@@ -70,4 +71,38 @@ li {
 
 .icon #icon {
   fill: #ff9500;
+}
+
+@media only screen and (min-width: 38em) {
+
+  ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5.6vmin;
+  }
+
+  h2 {
+    text-align: center;
+    margin-top: 2.2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  p {
+    flex-grow: 1;
+    font-weight: normal;
+  }
+
+  section {
+    margin: 1.1rem 1.2rem;
+  }
+
+  a {
+    margin: 0;
+  }
+
+  li {
+    padding: .8rem;
+    margin: 0;
+  }
+
 }
